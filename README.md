@@ -1,7 +1,7 @@
 # Welcome to MIDAST - `M`ult`I`dimensional `DA`ta `S`egmentation based on `T`wo-sample test 
 
 ## Introduction
-This repository implements MIDAST that is a novel approach for segmenting multivariate data efficiently. It enhances accuracy and interpretability by leveraging two-sample statistical tests for equality of distribution. The core of MIDAST is available in src/multivariate_statistical_test_method.py. The repository contain also additional files 
+This repository implements MIDAST that is a novel approach for segmenting multivariate data efficiently. It enhances accuracy and interpretability by leveraging two-sample statistical tests for equality of distribution. The core of MIDAST is available in src/multivariate_statistical_test_method.py. The repository contain also additional files necessary to test baseline methods (e.g., e-Divisive used in utils/cp_detection_R.py) and make simulations (all files with suffix `_simulations.py` from src/).
 
 ![idea3 (1)](https://github.com/user-attachments/assets/12f190f4-4030-43ec-8c0c-b2cebbb14720)
 
