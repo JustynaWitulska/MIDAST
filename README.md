@@ -1,7 +1,7 @@
 # Welcome to MIDAST - `M`ult`I`dimensional `DA`ta `S`egmentation based on `T`wo-sample test 
 
 ## Introduction
-MIDAST is a novel approach for segmenting multivariate data efficiently. It enhances accuracy and interpretability by leveraging []. This method is particularly useful for applications in [].
+MIDAST is a novel approach for segmenting multivariate data efficiently. It enhances accuracy and interpretability by leveraging []. This method is particularly useful for applications in []. 
 
 
 ![idea3 (1)](https://github.com/user-attachments/assets/12f190f4-4030-43ec-8c0c-b2cebbb14720)
@@ -13,8 +13,8 @@ MIDAST is a novel approach for segmenting multivariate data efficiently. It enha
 - Scalable to large datasets
 - Easy integration with existing workflows
 
-## Installation
-Ensure you have Python 3.x installed. Install dependencies using:
+## Installation & Configuration
+Ensure you have >= Python 3.8 installed. Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
