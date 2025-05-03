@@ -96,7 +96,7 @@ The `test_name` for tests used by MIDAST available in the current version are as
 Only `KSTest` and `TopologyTest` are implemented in pure Python. The remaining tests are implemented in R and they require to set `USE_R_TESTS` as True and provide `R_PATH` in the `.env` file. If you would like to use only Python packages, set `USE_R_TESTS` as False.
 
 
-Guidelines for parameterization can be found in the paper: <TBU>.
+Guidelines for parameterization can be found in the paper: (TBU>).
 
 ---
 
@@ -104,7 +104,7 @@ Guidelines for parameterization can be found in the paper: <TBU>.
 
 If you find this code useful, you may cite the following paper:
 
-<TBU>
+(TBU>)
 ```latex
 @article{...,
   title={...},
@@ -115,6 +115,6 @@ If you find this code useful, you may cite the following paper:
 ```
 
 ## Sources
-[1]
+[1] 
 [2]
 
