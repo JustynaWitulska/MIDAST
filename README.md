@@ -86,7 +86,8 @@ change_points = change_detector_instance.analyze_results(
 - other parameters (**kwargs) can be connected with selected test_name (e.g., for `CramerTest` we can additionaly select kernel. For more details, see source code).
 
 The `test_name` for tests used by MIDAST available in the current version are as follows:
-- `KSTest` (from https://github.com/syrte/ndtest and https://github.com/o-laurent/multivariate-ks-test),
+- `KSTest` (from https://github.com/syrte/ndtest for d=2, and from https://github.com/o-laurent/multivariate-ks-test for d>2),
+- `KSTest_DKW` (from https://github.com/o-laurent/multivariate-ks-test for all dimensions d),
 - `TopologyTest` (from https://github.com/dioscuri-tda/topotests)
 - `KernelDensitiesTest` (from https://www.rdocumentation.org/packages/np/versions/0.60-18/topics/npdeneqtest)
 - `MMDTest` (from https://rdrr.io/cran/maotai/src/R/mmd2test.R)
@@ -96,7 +97,7 @@ The `test_name` for tests used by MIDAST available in the current version are as
 Only `KSTest` and `TopologyTest` are implemented in pure Python. The remaining tests are implemented in R and they require to set `USE_R_TESTS` as True and provide `R_PATH` in the `.env` file. If you would like to use only Python packages, set `USE_R_TESTS` as False.
 
 
-Guidelines for parameterization can be found in the paper: (TBU>).
+Guidelines for parameterization can be found in the paper: <TBU>.
 
 ---
 
@@ -104,7 +105,7 @@ Guidelines for parameterization can be found in the paper: (TBU>).
 
 If you find this code useful, you may cite the following paper:
 
-(TBU>)
+<TBU>
 ```latex
 @article{...,
   title={...},
@@ -115,6 +116,6 @@ If you find this code useful, you may cite the following paper:
 ```
 
 ## Sources
-[1] 
+[1]
 [2]
 

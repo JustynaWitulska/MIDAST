@@ -67,8 +67,8 @@ class ChangeDetector:
             values1 = df[ind : ind + window_size, :]
             values2 = df[ind + window_size : ind + 2 * window_size, :]
 
-            if self.test_name == "KSTest":
-                if dimension == 2:
+            if (self.test_name == "KSTest") or (self.test_name == "KSTest_DKW") :
+                if (dimension == 2) and (self.test_name == "KSTest"):
                     x1, y1 = values1.T
                     x2, y2 = values2.T
                     result = ks2d2s(x1, y1, x2, y2, extra=True)
