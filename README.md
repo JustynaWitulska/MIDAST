@@ -105,17 +105,13 @@ Guidelines for parameterization can be found in the paper: <TBU>.
 
 If you find this code useful, you may cite the following paper:
 
-<TBU>
 ```latex
-@article{...,
-  title={...},
-  author={...},
-  journal={...},
-  year={...},
+@article{identifying2026,
+  title={Identifying the temporal distribution structure in multivariate data for time-series segmentation based on two-sample test},
+  author={Witulska, Justyna and Hendler, Marta and Kasprowicz, Magdalena and Czosnyka, Marek and Jab{\l}o{\'n}ski, Ireneusz and Wy{\l}oma{\'n}ska, Agnieszka},
+  journal={Information Fusion},
+  pages={103445},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
-
-## Sources
-[1]
-[2]
-
